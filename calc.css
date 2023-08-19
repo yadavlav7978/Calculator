@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 3px;
+    display: flex;
+    /* This is for creating flexible laylouts that can adapt to different screen sizes and devices*/
+    align-items: center;
+    /* to center the element along cross-axis */
+    justify-content: center;
+    /* to center the element along main axis*/
+}
+
+.container {
+    position: relative;
+    display: flex;
+    height: 570px;
+    width: 290px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#display {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 4%;
+    font-size: 30px;
+
+}
+
+.button button {
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#zer0 {
+    width: 130px;
+}
+
+.red {
+    background-color: red;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+#equal {
+    display: flex;
+    font-size: 22px;
+    padding-left: 19px;
+    padding-top: 12px;
+    background-color: rgb(215, 91, 8);
+}
+
+#point {
+    display: flex;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+#mul {
+    display: flex;
+    font-size: 30px;
+    padding-left: 19px;
+    padding-top: 10px;
+}
+
+#minus {
+    display: flex;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+#plus {
+    display: flex;
+    font-size: 22px;
+    padding-left: 19px;
+    padding-top: 12px;
+}
